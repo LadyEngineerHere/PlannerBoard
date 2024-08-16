@@ -1,0 +1,56 @@
+/* Invert the color of the icons to white */
+.white-icons {
+    filter: invert(1); /* Inverts black to white */
+}
+
+/* padding or margin adjustments if needed */
+.d-flex.align-items-center img {
+    margin-right: 10px; /* Adjust spacing between icons and text */
+}
+
+/* Style for the sidebar */
+.sidebar {
+    border-radius: 15px; /* Rounds the edges of the sidebar */
+    background-color: #1c1c1c; 
+    padding: 15px; /* Add padding if needed */
+    overflow: hidden; /* Prevent overflow */
+    transition: width 0.3s ease; /* Smooth transition for width changes */
+}
+
+/* Style for the collapsed state of the sidebar */
+.sidebar.collapsed {
+    width: 50px; /* Width of the sidebar when collapsed to show icons only */
+}
+
+/* Style for navigation links */
+.sidebar .nav-link {
+    padding: 8px 12px; /* Adjust padding to control hover width */
+    margin: 0; /* Ensure no extra margin */
+    border-radius: 8px; /* Maintain border-radius */
+    color: lightgrey; /* Default text color */
+    text-decoration: none; /* Remove underline from links */
+    display: flex; /* Use flexbox to align icon and text */
+    align-items: center; /* Align items vertically */
+}
+
+/*  hover state for the sidebar links */
+.sidebar .nav-link:hover {
+    background-color: #333333; /* Change background color on hover */
+    color: lightgrey; /* text color changes on hover */
+}
+
+/* Style for the toggle button */
+#toggle-button {
+    width: 15px; /* Width of the toggle icon */
+    height: 15px; /* Height of the toggle icon */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: -5px; /* Adjust as needed to align */
+}
+
+/*  Adjust spacing between sections  */
+hr {
+    border-color: white; /* Ensures the horizontal line is white */
+    margin: 15px 0; /* Adjust spacing above and below the line */
+}
+
+
